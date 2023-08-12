@@ -1,0 +1,16 @@
+name: publish to pypi
+description: "GitHub Action: "
+author: Nicholas Valentinus
+branding:
+  icon: settings
+  color: gray-dark
+
+inputs:
+  dir:
+    description: 
+    required: true
+
+runs:
+  using: 'composite'
+  steps:      
+    - uses: x
